@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ScalaCompilerConfiguration">
+    <profile name="Maven 1" modules="Maven-Project,scala-library">
+      <parameters>
+        <parameter value="-dependencyfile" />
+        <parameter value="$PROJECT_DIR$/target/.scala_dependencies" />
+      </parameters>
+    </profile>
+    <profile name="Maven 2" modules="String-api">
+      <parameters>
+        <parameter value="-dependencyfile" />
+        <parameter value="$PROJECT_DIR$/String-api/target/.scala_dependencies" />
+      </parameters>
+    </profile>
+    <profile name="Maven 3" modules="string-impl">
+      <parameters>
+        <parameter value="-dependencyfile" />
+        <parameter value="$PROJECT_DIR$/String-impl/target/.scala_dependencies" />
+      </parameters>
+    </profile>
+    <profile name="Maven 4" modules="src">
+      <parameters>
+        <parameter value="-dependencyfile" />
+        <parameter value="$PROJECT_DIR$/src/target/.scala_dependencies" />
+      </parameters>
+    </profile>
+  </component>
+</project>
