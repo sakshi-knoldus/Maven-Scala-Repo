@@ -1,4 +1,4 @@
-package main.scala.com.knoldus.api
+package com.knoldus.api
 
 class StringFunctions {
     def reverseString(str:String):String={

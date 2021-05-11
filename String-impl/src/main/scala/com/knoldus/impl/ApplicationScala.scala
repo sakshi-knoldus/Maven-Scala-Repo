@@ -1,5 +1,5 @@
 package com.knoldus.impl
-import com.knoldus.api
+import com.knoldus.api.StringFunctions
 
 class Impl{
  def main():Unit={

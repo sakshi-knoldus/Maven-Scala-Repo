@@ -1,4 +1,4 @@
-package com.knoldus.lib
+
 import com.knoldus.impl.ApplicationScala
 
 object Main{
